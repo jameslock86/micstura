@@ -2,3 +2,40 @@
     margin:0;
     padding:0;
 }
+.container-header{
+    height:200px;
+    background-color:white;
+}
+.container-about-us{
+    height:200px;
+    background-color:grey;
+}
+
+.container-horizontal-scroll {
+    height:400px;
+    background-color: green;
+}
+.container-4-things-about-us{
+    height:200px;
+    background-color:#FA6F5D;
+}
+.container-our-process{
+     height:200px;
+    background-color:white;
+}
+.container-our-team{
+    height:200px;
+    background-color:white;
+}
+.container-clients{
+    height:200px;
+    background-color:red;
+}
+.container-our-blog{
+    height:200px;
+    background-color:white;
+}
+.container-footer{
+     height:300px;
+     background-color:grey;
+}
