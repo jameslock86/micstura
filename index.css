@@ -23,8 +23,28 @@ html{
 .hero-header{
     background-color: #FA6F5D;
     position: absolute;
-    top:20rem;
+    top:19.5rem;
+    left:7rem;
+    width:89vw;
+    height:24rem;
      
+}
+.hero--main-header{
+    color:white;
+    
+    text-transform: uppercase;
+    margin-top:6rem;
+    margin-left:6rem;
+    margin-bottom:.5rem;
+}
+.hero--sub {
+    color:white;
+    font-weight: 300;
+    font-size:34px;
+    text-transform: uppercase;
+    
+    margin-left:6rem;
+    margin-right:6rem;
 }
 
 
