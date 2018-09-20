@@ -38,12 +38,30 @@ html{
     margin-right:3rem;
 } 
 
+.pane--intro {
+    margin: 0 0 50px 0;
+}
+
+.pane--intro-english {
+    color: #313638;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+}
+
+.pane--intro-spanish {
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 .about-us{
     background-color:white;
+    margin: 150px 0;
 }
 
 .about-us p {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
 }
 
