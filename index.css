@@ -22,6 +22,19 @@ html{
         height:1000px;
     }
 }
+
+.heading {
+    margin: 0 0 50px 0;
+}
+
+.orange {
+    color: #FA6F5D;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
  .hero-header{
     background-color: #FA6F5D;
     position: absolute;
@@ -74,22 +87,22 @@ html{
 }
 
 .about-us p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 .container-horizontal-scroll {
-    height:40rem;
-    background-color: green;
 }
 .container-4-things-about-us{
     height:20rem;
     background-color:#FA6F5D;
 }
-.container-our-process{
-     height:20rem;
+
+.our-process{
     background-color:white;
+    padding: 150px 0;
 }
+
 .container-our-team{
     height:20rem;
     background-color:white;
