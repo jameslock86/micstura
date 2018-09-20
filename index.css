@@ -17,7 +17,7 @@ html{
 }
 .header{
     width:100vw;
-    background-image: url("https://micstura.frb.io/assets/images/heroes/about-hero.jpg");
+    background-image: url("./images/about-hero.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
