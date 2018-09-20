@@ -1,4 +1,68 @@
-*{
+*,
+*::after,
+*::before {
     margin:0;
     padding:0;
+    box-sizing: inherit;
 }
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    line-height: 1.15;
+    display: block;
+}
+
+.hero__content-container{
+    width:100%;
+    background-image: url("https://micstura.frb.io/assets/images/heroes/about-hero.jpg");
+    height:62.5rem;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.hero-header{
+    background-color: #FA6F5D;
+    position: absolute;
+    top:20rem;
+     
+}
+
+
+
+
+
+.container-about-us{
+    height:20rem;
+    background-color:grey;
+}
+
+.container-horizontal-scroll {
+    height:40rem;
+    background-color: green;
+}
+.container-4-things-about-us{
+    height:20rem;
+    background-color:#FA6F5D;
+}
+.container-our-process{
+     height:20rem;
+    background-color:white;
+}
+.container-our-team{
+    height:20rem;
+    background-color:white;
+}
+.container-clients{
+    height:20rem;
+    background-color:red;
+}
+.container-our-blog{
+    height:20rem;
+    background-color:white;
+}
+.container-footer{
+     height:30rem;
+     background-color:grey;
+}
+
+
