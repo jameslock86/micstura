@@ -17,10 +17,12 @@
     <!-- <link rel="stylesheet" href="scss/_panes.scss" type="text/css"/> -->
     
   </head>
-  <body class='body'>
+  
+  <body class="body loading">
+    <div id="loading-overlay" class="loading height-transition"></div>
     <div class="container-fluid">
       <!-- Content Section 1 - Header -->
-      <div class=" row hero"> 
+      <div class="row hero d-flex justify-content-center align-items-center"> 
         <div class="header d-flex justify-content-center">
           <div class="hero-header">
             <h1 class="hero--main-header">about us</h1>
@@ -131,12 +133,14 @@
           
         </div>
       </div>
-
-      <div class="container-clients">
-        <a href='case-study.htm'>Click here for case study</a>
+      <div class="row">
+        <div class="container-clients">
+          <a href='case-study.htm'>Click here for case study</a>
+        </div>
       </div>
       <div class="container-our-blog"></div>
       <footer class="container-footer"></footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
