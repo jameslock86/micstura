@@ -5,6 +5,19 @@ html{
     color: #212529;
     
 }
+
+a {
+    color: #FA6F5D;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #f82d13;
+    text-decoration: underline;
+}
+
 .hero{
     position: relative;
     display: flex;
@@ -26,15 +39,6 @@ html{
     height: 625px;
     margin-bottom: 150px;
     
-}
-/* @media(min-width:600){
-    .header{
-        height:1000px;
-    }
-} */
-
-.heading {
-    margin: 0 0 50px 0;
 }
 
 .orange {
@@ -116,19 +120,60 @@ html{
 
 .our-team{
     background-color:white;
+    margin-bottom: 150px;
 }
-.container-clients{
+
+.crew--member figure {
+    margin-bottom: 54px;
+}
+
+.crew--member figure img {
+    max-width: 100%;
+}
+
+.crew--member h2 a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.crew--member .crew--title {
+    color: #888888;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.crew--member .crew--quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 80px;
+}
+
+.crew--member .crew--quote p {
+    color: #313638;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.learn-more {
+    position: relative;
+}
+
+.learn-more a {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.clients{
     height:20rem;
     background-color:red;
 }
-.container-our-blog{
+.our-blog{
     height:20rem;
     background-color:white;
-}
-.container-footer{
-     height:30rem;
-     background-color:grey;
-}
 
 /* this is the section # 3 4 things about us*/
 .things-about-us{
