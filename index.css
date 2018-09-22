@@ -11,7 +11,7 @@ html{
 }
 
 .height-transition {
-    position: absolute;
+    position: fixed;
     -webkit-transition: min-height 0.5s; /* Safari */
     transition: min-height 0.5s; /* Safari */
     width: 100vw;
