@@ -235,13 +235,102 @@ a:hover {
     text-transform: uppercase;
 }
 
-.clients{
-    height:20rem;
-    background-color:red;
+/* clients section */
+.accent-block {
+    padding: 100px;
+    margin-bottom: 150px;
 }
+
+.accent-block-neutral {
+    background-color: #f2f2f2;
+}
+
+.clients-header {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #313638;
+}
+
+.client {
+    background-color: #fff;
+    min-height: 340px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    padding-top: 30px;
+}
+
+.client--logo {
+    margin: 0;
+}
+
+.client--logo img {
+    max-width: 100%;
+}
+
+.client--body {
+    padding: 10px 20px 20px;
+}
+
+.client--excerpt {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #313638;
+    min-height: 105px;
+}
+
+.client--cta {
+    text-align: center;
+}
+
+.client--cta a {
+    color: #313638;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.clients--footer {
+    text-align: center;
+    font-size: 14px;
+    margin: 50px auto 0;
+}
+
+.pagination-trigger a {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #313638;
+}
+
+.pagination-trigger a .page-total {
+    font-weight: 600;
+    margin: 0 8px;
+}
+
+.pagination-icon {
+    font-size: 24px;
+    color: #FA6F5D;
+}
+
+.mic-icon {
+    display: inline-block;
+    font: normal normal normal 1em/1 'Micstura';
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* end clients section */
+
+
 .our-blog{
     height:20rem;
     background-color:white;
+}
 
 /* this is the section # 3 4 things about us*/
 .things-about-us{
