@@ -369,3 +369,41 @@ a:hover {
 .things-4{
     margin-top:36px;
 }   
+
+
+
+/* our blog section */
+.our-blog{
+    margin:50px 0 50px 0;
+}
+.our-blog-intro{
+   margin: 68px; 
+}
+.our-blog-sub-title{
+    color:#ccc;
+}
+
+.our-blog-body{
+    height:485px;
+    width:100vw;
+    margin-left:100px;
+    margin-right:100px;
+}
+.caribean-pic{
+    width:485px;
+    height:485px;
+    position: absolute;
+    left: -15;
+    top: 0;
+}
+
+.our-blog-body-link{
+    color:black;
+    font-weight:bold;
+}
+
+
+
+.container-footer{
+    height:400px;
+}
